@@ -1,0 +1,55 @@
+.login{
+	background-image: linear-gradient(to bottom, #F9BF3A, #ffffff, #ffffff, #ffffff, #ffffff);
+	background-position-y: .88rem;
+	.btn{
+		margin: .6rem 0;
+	}
+	.tit_e{
+		font-size: .6rem;
+		margin-top: .2rem;
+	}
+	.tit_c{
+		font-size: .48rem;
+	}
+	.item_tit{
+		font-size: .32rem;
+		margin-top: .4rem;
+	}
+	.margin{
+		margin-top: .8rem;
+	}
+	.item{
+		border-bottom: 1px #CFCFCF solid;
+	}
+	input{
+		width: 100%;
+		height: .8rem;
+		margin-top: .2rem;
+	}
+	.op{
+		display: flex;
+		justify-content: space-between;
+		color: #666666;
+    }
+    .get_code{
+        display: flex;
+        justify-content: space-between;
+        input{
+            width: 2.6rem;
+        }
+        button{
+            width: 1.6rem;
+            height: .64rem;
+            border: 1px #BC7C1C solid;
+            background: none;
+            border-radius: .4rem;
+			margin-top: .26rem;
+			margin-right: .2rem;
+			font-size: .2rem;
+        }
+	}
+	button[disabled]{
+        border: 1px #CFCFCF solid;
+        color: #CFCFCF;
+    }
+}
